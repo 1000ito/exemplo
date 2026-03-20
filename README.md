@@ -11,3 +11,5 @@ ALUNOS:
 	* Jaísy Oliveira Soares
 
 	* Sara Brizolla
+
+	* Rebeka de Oliveira
