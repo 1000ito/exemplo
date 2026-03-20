@@ -15,3 +15,5 @@ ALUNOS:
 	* Rebeka de Oliveira
 
 	* Renata de Oliveira Lima
+	
+	* Suélen Dos Santos Alexandre
