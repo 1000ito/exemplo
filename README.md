@@ -18,6 +18,8 @@ ALUNOS:
 	
 	* Suélen Dos Santos Alexandre
 
-	*Eber Jeiel Brizola Berckeuer
+	* Eber Jeiel Brizola Berckeuer
 	
 	* Isaias Steffens
+		
+	* Regis Soares Brizola
