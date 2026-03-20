@@ -17,3 +17,5 @@ ALUNOS:
 	* Renata de Oliveira Lima
 	
 	* Suélen Dos Santos Alexandre
+
+	*Eber Jeiel Brizola Berckeuer
