@@ -1,0 +1,86 @@
+/*estilos geris */
+body{
+    font-family: arial,sans-serif;
+    margin:0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/*estilização do cabeçalho e navegação */
+header{
+    color: #fff;
+    background-color: #333;
+    padding: 20px;
+}
+
+nav{
+    display:flex; /*alinha a logo e menu em uma linha*/
+    justify-content: space-between; /*Espaços entre os elementos*/
+    align-items: center; /*alinha os itens no centro*/
+        
+    .nav-links{
+        list-style: none;
+        display: flex; /*alinha os itens do menu em uma linha*/ 
+    }
+}
+
+.logo {
+    font-weight: bold;
+}
+.nav-links li a{
+    color:#fff;
+    text-decoration: none;
+    padding: 10px;
+}
+.nav-links li a:hover{
+    color:orange;
+}
+
+.container{
+    display: grid; /*ativa o Grid*/
+    grid-template-columns: repeat(4,1fr); /* cria 4 colunas com largura igual */
+    gap: 20px; /* espaçamento entre itens do grid. */
+    padding: 20px;
+}
+
+.card{
+    background-color: #f4f4f4;
+    border: 1px solid#ddd;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+.card:hover {
+  transform: translatey(-10px); /* sobe 10px */
+  box-shadow: 0 10px 10px rgba(0,0,0,0.4); /* cria sombra */
+}
+
+/*Para tablets */
+@media (max-width: 900px) {
+    .container {
+        grid-template-columns: repeat(2,1fr); /*duas colunas no tablet */
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        grid-template-columns: repeat(1,1fr); /*Uma coluna no celular */
+    }
+}
+
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+footer a:hover{
+    color:orange;
+}

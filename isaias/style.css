@@ -1,0 +1,26 @@
+/* Estilizando o corpo da página */
+
+body{
+    background-color: lightblue; /* cor de fundo cinza claro para a página */
+    font-family: sans-serif ; /*Alterou a fonte paara um modelo simples e limpo */
+}
+/*estilizando o container do cartão*/
+.cartão {
+    background-color: white; /*deixou o fundo branco*/
+    margin: 50px auto; /*centralizar o cartão na página*/
+    width: 700px; /*definido a largura fisica*/
+    padding: 20px; /* Espaço interno para não grudar o texto nas bordas*/
+    border-radius: 20px; /*aredonda os cantos do cartão */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1.0); /*cria uma sombra suave para dar profundidade*/
+}
+    /* Estilizem o titulo do cartão*/
+h1{
+    color:#4caf50;
+    font-size: 30px;
+}
+    /*Estilizem o parágrafo do cartão*/
+p{
+    font-size: 18px;
+    color:#54808d;
+}
+
