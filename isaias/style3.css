@@ -1,0 +1,20 @@
+body{
+    font-family:Arial, sans-serif;
+}
+/* o container é o pai. É nele que aplicamos o flexbox. */
+.container-flex {
+    display: flex;
+    height: 100px; /*Altura para visualizar o alinhamento vertical */
+    background-color: #333;
+    color:white;
+    align-items: center; /*alinha os itens verticalmente no meio da div */
+    justify-content: space-around; /* Distribui o espaço entre o itens de maneira horizontal*/ 
+}
+/*justify-content:   flex-end alinha a direita, flex-start alinha a esquerda e no center ira alinhar no centro*/
+/*align-itens:   flex-end alinha os itens na parte de baixo, flex-start alinha na parte de cima e no center ira alinhar no centro*/
+.item {
+    padding:10px;
+    background-color: #007bff;
+    border-radius: 10px;
+    
+}
