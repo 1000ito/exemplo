@@ -13,3 +13,5 @@ ALUNOS:
 	* Sara Brizolla
 
 	* Rebeka de Oliveira
+
+	* Renata de Oliveira Lima
