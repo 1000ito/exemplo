@@ -9,3 +9,5 @@ ALUNOS:
 	* Rai Borges Rodrigues
 
 	* Jaísy Oliveira Soares
+
+	* Sara Brizolla
